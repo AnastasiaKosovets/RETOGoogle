@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.general {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left {
+    display: flex;
+}
+
+.cabecera {
+    width: 90em;
+    height: 5em;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre, .tienda {
+    height: 5em;
+    width: 9em;
+    display: row;
+    align-items: flex-end;
+}
+
+.tienda {
+    margin-left: -2em;
+}
+
+.gmail, .imagenes, .puntos, .A {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
