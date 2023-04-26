@@ -107,7 +107,7 @@ body {
 
 
 .final {
-    height: 25em;
+    height: 5em;
     width: 85em;
     display: flex;
     justify-content: center;
@@ -142,4 +142,12 @@ body {
 .boton1:hover, .boton2:hover {
     background-color: rgba(164, 164, 166, 0.289);
     box-shadow: 0 0 0.1em 0 black;
+}
+
+.textGoogle {
+    height: 25em;
+    width: 85em;
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
 }
