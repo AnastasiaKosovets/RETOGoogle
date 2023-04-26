@@ -76,21 +76,70 @@ body {
 }
 
 .googleLogo {
-    width: 20em;
-    height: 15em;
+    width: 15em;
+    height: 10em;
     background-image: url(../img/logo-Google.png);
     display: flex;
     justify-content: center; 
 }
 
 .medio1 {
-
+    height: 5em;
+    width: 85em;
+    display: flex;
+    margin-left: 3em;
+    justify-content: center;
+    border-radius: 2em;
 }
 
 .barraSearch {
-    height: 5em;
-    width: 50em;
-    background-color: rgb(179, 28, 28);
-    border-radius: ;
-    box-shadow: rgba(52, 49, 49, 0.73);
+    width: 30em;
+    height: 2.5em;
+    border-radius: 2em;
+    box-shadow: 0 0 0.2em 0.1em rgb(62, 62, 62);
+}
+
+.barraSearch:hover {
+    background-color: rgba(205, 205, 205, 0.551);
+    cursor: pointer;
+    
+}
+
+
+.final {
+    height: 25em;
+    width: 85em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boton1 {
+    height: 1.5em;
+    width: 8em;
+    background-color: rgba(164, 164, 166, 0.123);
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    margin-right: 7em;
+}
+
+.boton2 {
+    height: 1.5em;
+    width: 8em;
+    background-color: rgba(164, 164, 166, 0.123);
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    margin-right: -5em;
+}
+
+.boton1, .boton2 {
+    height: 1.5em;
+    width: 8.5em;
+}
+
+.boton1:hover, .boton2:hover {
+    background-color: rgba(164, 164, 166, 0.289);
+    box-shadow: 0 0 0.1em 0 black;
 }
